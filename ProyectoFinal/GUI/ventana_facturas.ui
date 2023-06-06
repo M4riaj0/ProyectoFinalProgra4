@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>666</width>
+    <height>745</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(232, 237, 240);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="Line" name="line">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>0</y>
+      <width>641</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_1">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>10</y>
+      <width>20</width>
+      <height>681</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_3">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>10</y>
+      <width>20</width>
+      <height>681</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>680</y>
+      <width>641</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_2">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>30</y>
+      <width>601</width>
+      <height>631</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(219, 233, 239);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>750</x>
+       <y>210</y>
+       <width>181</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(232, 237, 240);
+font: 9pt &quot;OCR A Extended&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Agregar Propietario</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="textoCedula">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>80</y>
+       <width>231</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(232, 237, 240);
+font: 9pt &quot;OCR A Extended&quot;;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labelCedula">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>80</y>
+       <width>151</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 10pt &quot;OCR A Extended&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Cédula Cliente:</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="botonAgregarFactura">
+     <property name="geometry">
+      <rect>
+       <x>310</x>
+       <y>590</y>
+       <width>181</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(232, 237, 240);
+font: 9pt &quot;OCR A Extended&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Agregar Factura</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labelTitulo">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>20</y>
+       <width>241</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 10pt &quot;OCR A Extended&quot;;</string>
+     </property>
+     <property name="text">
+      <string>CREAR UNA NUEVA FACTURA</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labelProductosDisponibles">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>150</y>
+       <width>231</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 10pt &quot;OCR A Extended&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Productos Disponibles:</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBoxTrompa">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>240</y>
+       <width>181</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 8pt &quot;OCR A Extended&quot;;</string>
+     </property>
+     <property name="text">
+      <string>TROMPA-Hormiguicida</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBoxRidomil">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>270</y>
+       <width>171</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 8pt &quot;OCR A Extended&quot;;</string>
+     </property>
+     <property name="text">
+      <string>RIDOMIL-Fungicida</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBoxFullneem">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>300</y>
+       <width>171</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 8pt &quot;OCR A Extended&quot;;</string>
+     </property>
+     <property name="text">
+      <string>FULLNEEM-Plagicida</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labelControlPlagas">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>200</y>
+       <width>171</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 9pt &quot;OCR A Extended&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Control Plagas:</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBoxFosforita">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>300</y>
+       <width>171</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 8pt &quot;OCR A Extended&quot;;</string>
+     </property>
+     <property name="text">
+      <string>FOSFORITA HUILA</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labelControlPlagas_2">
+     <property name="geometry">
+      <rect>
+       <x>320</x>
+       <y>200</y>
+       <width>201</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 9pt &quot;OCR A Extended&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Control Fertilizante:</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBoxAbimgra">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>240</y>
+       <width>191</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 8pt &quot;OCR A Extended&quot;;</string>
+     </property>
+     <property name="text">
+      <string>ABIMGRA de gallinaza</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBoxUrea">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>270</y>
+       <width>171</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 8pt &quot;OCR A Extended&quot;;</string>
+     </property>
+     <property name="text">
+      <string>UREA GRANULAR</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBoxRostum">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>460</y>
+       <width>111</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 8pt &quot;OCR A Extended&quot;;</string>
+     </property>
+     <property name="text">
+      <string>ROSTUM</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labelControlPlagas_3">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>360</y>
+       <width>171</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 9pt &quot;OCR A Extended&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Antibioticos:</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBoxBenzatinica">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>400</y>
+       <width>121</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 8pt &quot;OCR A Extended&quot;;</string>
+     </property>
+     <property name="text">
+      <string>BENZATINICA</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBoxDarxxin">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>430</y>
+       <width>111</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 8pt &quot;OCR A Extended&quot;;</string>
+     </property>
+     <property name="text">
+      <string>DARXXIN</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBoxAmoxidex">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>490</y>
+       <width>111</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 8pt &quot;OCR A Extended&quot;;</string>
+     </property>
+     <property name="text">
+      <string>AMOXIDEX</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
